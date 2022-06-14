@@ -1,0 +1,47 @@
+.announcement {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    font-family: 'Noto Sans VF', 'Noto Sans', 'Helvetica', 'Arial', sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+    background-color: #E7EEF4;
+    position: relative;
+    z-index: 1;
+    font-size: 16px;
+
+    > p {
+        margin: 1em 0;
+    }
+
+    .announcement-link-wrapper {
+        padding-right: 0.8em;
+        display: inline;
+    }
+
+    .announcement-link {
+        text-decoration: none;
+        border-bottom: 3px solid transparent;
+        padding-top: 3px;
+        padding-bottom: 1px;
+        transition: border 0.4s ease;
+        font-weight: 550;
+        color: #14558f;
+
+        &:hover,
+        &:focus {
+            border-bottom-color: rgba(20, 85, 143, 0.5);
+        }
+    }
+
+    .announcement-link-arrow {
+        display: inline-block;
+        height: 0.6em;
+        margin-right: -0.8em;
+        width: 0.6em;
+        fill: rgba(20, 85, 143, 0.5);
+    }
+}

@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Noto Sans";
+    src: url("https://unpkg.com/@massds/mayflower-assets/static/fonts/noto/Latin/NotoSans-Regular-subset.eot?#iefix") format("embedded-opentype"), url("https://unpkg.com/@massds/mayflower-assets/static/fonts/noto/Latin/NotoSans-Regular-subset.woff2") format("woff2"), url("https://unpkg.com/@massds/mayflower-assets/static/fonts/noto/Latin/NotoSans-Regular-subset.woff") format("woff");
+    font-style: normal;
+    font-display: "swap";
+}
+@supports (font-variation-settings: normal) {
+    @font-face {
+        font-family: "Noto Sans VF";
+        src: url("https://unpkg.com/@massds/mayflower-assets/static/fonts/noto/Latin/NotoSans-VF-subset.eot?#iefix") format("embedded-opentype"), url("https://unpkg.com/@massds/mayflower-assets/static/fonts/noto/Latin/NotoSans-VF-subset.woff2?version=1") format("woff2"), url("https://unpkg.com/@massds/mayflower-assets/static/fonts/noto/Latin/NotoSans-VF-subset.woff") format("woff"), url("https://unpkg.com/@massds/mayflower-assets/static/fonts/noto/Latin/NotoSans-VF.ttf") format("truetype");
+        font-weight: 100 900;
+        font-style: normal;
+        font-display: "swap";
+    }
+}

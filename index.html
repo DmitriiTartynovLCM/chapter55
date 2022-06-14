@@ -52,6 +52,28 @@
 <body>
     <div class="wrapper">
         <main>
+            <div class="announcement">
+                <p>
+                    This data visualization is now an <strong>archive</strong> from 2016.
+                    Updated Chapter 55-related files are now being maintained on
+                    <span class="announcement-link-wrapper">
+                        <a class="announcement-link" href="https://www.mass.gov/lists/public-health-data-warehouse-phd-publications">
+                            Public Health Data Warehouse: Publications
+                            <svg
+                              class="announcement-link-arrow"
+                              aria-hidden="true"
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="1em"
+                              height="1em"
+                              viewBox="0 0 16 18"
+                            >
+                                <path
+                                  d="M12.721 6.28L15.423 9l-2.702 2.72-5.403 5.45-2.701-2.72 3.498-3.53H.443V7.07h7.66L4.617 3.55 7.318.83z"
+                                ></path>
+                            </svg></a></span>
+                </p>
+            </div>
+
             <section class="module parallax parallax-1 target" id="top">
                 <div class="container">
                     <div class="row">
@@ -64,7 +86,7 @@
                         <div class="col-xs-12 col-md-6 neg-space-col-md">
                             <h1><span class="h1-sm">The Massachusetts<br /></span>Opioid Epidemic</h1>
                             <h2>A data visualization of findings from the Chapter 55 report</h2>
-                            <a href="http://www.mass.gov/eohhs/gov/departments/dph/stop-addiction/chapter-55-overdose-assessment.html" style="margin: -15px 0 15px;" type="button" class="btn btn-primary btn-lg" onclick="_gaq.push(['b._trackEvent', 'button', 'clicked', 'new-data'])">View latest report <i class="glyphicon glyphicon-arrow-right" aria-hidden="true"></i></a>
+                            <a href="https://www.mass.gov/lists/public-health-data-warehouse-phd-publications" style="margin: -15px 0 15px;" type="button" class="btn btn-primary btn-lg" onclick="_gaq.push(['b._trackEvent', 'button', 'clicked', 'new-data'])">View latest report <i class="glyphicon glyphicon-arrow-right" aria-hidden="true"></i></a>
                             <!-- Social Media Buttons BEGIN-->
                             <div style="padding: 10px 0;">
                                 <!-- Facebook -->
@@ -138,7 +160,7 @@
                                 <div id="binaryMaps_legend" class="vis-legend"></div>
                                 <div id="binaryMaps_maps"></div>
                                 <div class="source"><a href="js/data/csv/Introduction_MassMuni_5yrOpioidDeathRate.csv" onclick="_gaq.push(['b._trackEvent', 'download', 'clicked', 'average-annual-opioid-related-death-rate'])" download="AverageAnnualOpioidRelatedDeathRateper100,000People.csv">View the dataset powering this visualization <i class="glyphicon glyphicon-download-alt" aria-hidden="true"></i></a></div>
-                                <div class="source">Sources: <a target="_blank" href="http://www.mass.gov/eohhs/gov/departments/dph/programs/admin/dmoa/vitals/">Massachusetts Registry of Vital Records and Statistics</a>, <a target="_blank" href="http://www.mass.gov/eohhs/gov/departments/dph/">Massachusetts Department of Public Health</a>.</div>
+                                <div class="source">Sources: <a target="_blank" href="https://www.mass.gov/orgs/registry-of-vital-records-and-statistics">Massachusetts Registry of Vital Records and Statistics</a>, <a target="_blank" href="https://www.mass.gov/orgs/department-of-public-health">Massachusetts Department of Public Health</a>.</div>
                             </div>
                         </div>
                     </div>
@@ -156,7 +178,7 @@
                             <h4 class="subtitle">Comparing the opioid-related death rate of Massachusetts to the nation overall.</h4>
                             <div id="deathLines" role="img" aria-label="Line chart showing annual age-adjusted opioid death rates per 100,000 people for Massachusetts and the United States from 2000 to 2015."></div>
                             <div class="source"><a href="js/data/csv/Introduction_USA_vs_MA_OpioidDeathRate.csv" onclick="_gaq.push(['b._trackEvent', 'download', 'clicked', 'usa-ma-opioid-death-rate'])" download="AgeAdjustedOpioidRelatedDeathRateByYear.csv">View the dataset powering this visualization <i class="glyphicon glyphicon-download-alt" aria-hidden="true"></i></a></div>
-                            <div class="source">Sources: Centers for Disease Control and Prevention, National Center for Health Statistics. <a target="_blank" href="http://wonder.cdc.gov/mcd-icd10.html">Multiple Cause of Death 1999-2014 on CDC WONDER Online Database</a>, released 2015. <a target="_blank" href="http://www.mass.gov/eohhs/gov/departments/dph/programs/admin/dmoa/vitals/">Massachusetts Registry of Vital Records and Statistics</a>, <a target="_blank" href="http://www.mass.gov/eohhs/gov/departments/dph/">Massachusetts Department of Public Health</a>.</div>
+                            <div class="source">Sources: Centers for Disease Control and Prevention, National Center for Health Statistics. <a target="_blank" href="http://wonder.cdc.gov/mcd-icd10.html">Multiple Cause of Death 1999-2014 on CDC WONDER Online Database</a>, released 2015. <a target="_blank" href="https://www.mass.gov/orgs/registry-of-vital-records-and-statistics">Massachusetts Registry of Vital Records and Statistics</a>, <a target="_blank" href="https://www.mass.gov/orgs/department-of-public-health">Massachusetts Department of Public Health</a>.</div>
                         </div>
                     </div>
                 </div>
@@ -255,7 +277,7 @@
                             <p>This new law permits the analysis of different government datasets to guide policy decisions and to better understand the opioid epidemic. Recently, a groundbreaking report highlighting the current state of the crisis was released as part of this effort.</p>
                         </div>
                         <div class="col-xs-12 col-md-6">
-                            <p>Led by the Department of Public Health (DPH), the Chapter 55 analysis involved <a target="_blank" onclick="_gaq.push(['b._trackEvent', 'intext', 'clicked', 'ref-chpt55-datasets'])" href="http://www.mass.gov/eohhs/docs/dph/stop-addiction/dph-legislative-report-chapter-55-opioid-overdose-study-9-15-2016.pdf#page=58">10 datasets</a> from five different government agencies. In total, <a target="_blank" onclick="_gaq.push(['b._trackEvent', 'intext', 'clicked', 'ref-chpt55-partners'])" href="http://www.mass.gov/eohhs/docs/dph/stop-addiction/dph-legislative-report-chapter-55-opioid-overdose-study-9-15-2016.pdf#page=95">29 groups</a> from government, higher education, and the private sector provided information and expertise. This level of partnership is what makes the <a target="_blank" onclick="_gaq.push(['b._trackEvent', 'intext', 'clicked', 'ref-chpt55-report'])" href="http://www.mass.gov/eohhs/docs/dph/stop-addiction/dph-legislative-report-chapter-55-opioid-overdose-study-9-15-2016.pdf">Chapter 55 report</a> a milestone achievement in Massachusetts. Before this legislation was passed, such a comprehensive look at the opioid epidemic in the Commonwealth would not have been possible.</p>
+                            <p>Led by the Department of Public Health (DPH), the Chapter 55 analysis involved <a target="_blank" onclick="_gaq.push(['b._trackEvent', 'intext', 'clicked', 'ref-chpt55-datasets'])" href="https://www.mass.gov/doc/chapter-55-overdose-study-dph-leg-report-0/download#page=58">10 datasets</a> from five different government agencies. In total, <a target="_blank" onclick="_gaq.push(['b._trackEvent', 'intext', 'clicked', 'ref-chpt55-partners'])" href="https://www.mass.gov/doc/chapter-55-overdose-study-dph-leg-report-0/download#page=95">29 groups</a> from government, higher education, and the private sector provided information and expertise. This level of partnership is what makes the <a target="_blank" onclick="_gaq.push(['b._trackEvent', 'intext', 'clicked', 'ref-chpt55-report'])" href="https://www.mass.gov/doc/chapter-55-overdose-study-dph-leg-report-0/download">Chapter 55 report</a> a milestone achievement in Massachusetts. Before this legislation was passed, such a comprehensive look at the opioid epidemic in the Commonwealth would not have been possible.</p>
                             <p>In addition to providing significant insights into the opioid crisis by answering <a target="_blank" onclick="_gaq.push(['b._trackEvent', 'intext', 'clicked', 'ref-chpt55-7questions'])" href="http://www.mass.gov/eohhs/docs/dph/stop-addiction/dph-legislative-report-chapter-55-opioid-overdose-study-9-15-2016.pdf#page=41">seven key questions</a>, this project demonstrates how private and public organizations can collaborate to answer complex public-health questions. This model of cooperative data analysis has the potential to become the standard in Massachusetts and across the United States. The Chapter 55 project represents a process that should be continued, adapted, and refined as new public health challenges and new collaborators step forward.</p>
                             <p>Below are examples of opioid use trends that were uncovered by Chapter 55 analysis. Real, actionable steps to curb the epidemic can be taken as a direct result of this innovative data effort.</p>
                         </div>
@@ -293,7 +315,7 @@
                         <div class="col-xs-12 col-md-5 pull-right">
                             <p class="hidden-xs hidden-sm"></p>
                             <h2>Growth of Addiction in Massachusetts</h2>
-                            <p>Data from the DPH Bureau of Substance Abuse Services (BSAS) shows an increasing need for opioid-related treatment in Massachusetts. In 2000, <a id="toggleOpioidsY2000" onclick="opioidsY2000(); _gaq.push(['b._trackEvent', 'intext', 'clicked', 'vis-lines-bsas-onethird'])" class="btn-bsas" data-val="massachusetts">about one third</a> of admissions to substance abuse treatment centers and programs were opioid-related<a href="#footnote-9" class="page-scroll" aria-describedby="footnote-label"><span class="sr-only">see footnote</span><sup>9</sup></a>. By 2015, that figure had increased to <a id="toggleOpioidsY2015" onclick="opioidsY2015(); _gaq.push(['b._trackEvent', 'intext', 'clicked', 'vis-lines-bsas-half'])" class="btn-bsas" data-val="massachusetts">more than half</a>, overtaking alcohol as the most prevalent substance recorded by BSAS at treatment intake. <a href="http://www.mass.gov/anf/budget-taxes-and-procurement/oversight-agencies/health-policy-commission/public-meetings/board-meetings/20160907-commission-opioid-presentation.pdf#page=11" target="_blank">The Health Policy Commission (HPC)</a> recorded similar numbers for emergency room visits and hospitalizations during that time.</p>
+                            <p>Data from the DPH Bureau of Substance Abuse Services (BSAS) shows an increasing need for opioid-related treatment in Massachusetts. In 2000, <a id="toggleOpioidsY2000" onclick="opioidsY2000(); _gaq.push(['b._trackEvent', 'intext', 'clicked', 'vis-lines-bsas-onethird'])" class="btn-bsas" data-val="massachusetts">about one third</a> of admissions to substance abuse treatment centers and programs were opioid-related<a href="#footnote-9" class="page-scroll" aria-describedby="footnote-label"><span class="sr-only">see footnote</span><sup>9</sup></a>. By 2015, that figure had increased to <a id="toggleOpioidsY2015" onclick="opioidsY2015(); _gaq.push(['b._trackEvent', 'intext', 'clicked', 'vis-lines-bsas-half'])" class="btn-bsas" data-val="massachusetts">more than half</a>, overtaking alcohol as the most prevalent substance recorded by BSAS at treatment intake. <a href="https://www.mass.gov/media/909801/download" target="_blank">The Health Policy Commission (HPC)</a> recorded similar numbers for emergency room visits and hospitalizations during that time.</p>
                             <p>Along with the rise in demand for opioid use treatment, nationally and in Massachusetts, there has been an increase in opioid-related overdoses, both fatal and nonfatal.</p>
                         </div>
                         <div class="col-xs-12 col-md-7">
@@ -328,7 +350,7 @@
                                 <div id="treatmentMaps_maps"></div>
                             </div>
                             <div class="source"><a href="js/data/csv/Addiction_HeroinAbuseMap.csv" onclick="_gaq.push(['b._trackEvent', 'download', 'clicked', 'heroin-primary-substance-use'])" download="HeroinAsPrimarySubstanceOfUse.csv">View the dataset powering this visualization <i class="glyphicon glyphicon-download-alt" aria-hidden="true"></i></a></div>
-                            <div class="source">Sources: <a target="_blank" href="http://www.mass.gov/eohhs/gov/departments/dph/programs/substance-abuse/">Massachusetts Bureau of Substance Abuse Services</a>, <a target="_blank" href="http://www.mass.gov/eohhs/gov/departments/dph/">Massachusetts Department of Public Health</a></div>
+                            <div class="source">Sources: <a target="_blank" href="https://www.mass.gov/orgs/bureau-of-substance-addiction-services">Massachusetts Bureau of Substance Abuse Services</a>, <a target="_blank" href="https://www.mass.gov/orgs/department-of-public-health">Massachusetts Department of Public Health</a></div>
                         </div>
                     </div>
                 </div>
@@ -369,7 +391,7 @@
                                     <p></p>
                                 </div>
                             </div>
-                            <div class="source">Sources: <a target="_blank" href="http://www.mass.gov/eohhs/gov/departments/dph/programs/admin/dmoa/vitals/">Massachusetts Registry of Vital Records and Statistics</a>, <a target="_blank" href="http://www.mass.gov/eohhs/gov/departments/dph/programs/hcq/drug-control/pmp/">Massachusetts Prescription Drug Program</a>, <a target="_blank" href="http://www.mass.gov/eohhs/gov/departments/dph/">Massachusetts Department of Public Health</a></div>
+                            <div class="source">Sources: <a target="_blank" href="https://www.mass.gov/orgs/registry-of-vital-records-and-statistics">Massachusetts Registry of Vital Records and Statistics</a>, <a target="_blank" href="https://www.mass.gov/orgs/prescription-monitoring-program">Massachusetts Prescription Drug Program</a>, <a target="_blank" href="https://www.mass.gov/orgs/department-of-public-health">Massachusetts Department of Public Health</a></div>
                             <p></p>
                             <p>Whether using them for legitimate medical reasons or not, anyone can become dependent on or addicted to opioids. When this happens, the body’s craving for an opioid continues even if a prescription runs out. In these cases, many people keep using opioids, but illegally. More than <a class="controls controls-svg" onclick="_gaq.push(['b._trackEvent', 'intext', 'clicked', 'rx-history-2thirds'])" data-select="2/3">two-thirds</a> of people who died from an opioid-related overdose had a legal opioid prescription at some point from 2011–2014. However, only about <a class="controls controls-svg" onclick="_gaq.push(['b._trackEvent', 'intext', 'clicked', 'rx-history-1twelve'])" data-select="1/12">1 in 12</a> of those who died had an opioid prescription in the month before their death.</p>
                             <p>It should be noted that opioid-related deaths began increasing sharply in 2012, no similar increase in opioid prescriptions was recorded. This suggests that no single substance or health care practice is solely responsible for the current opioid crisis. Rather, it’s a complex issue with a number of contributing factors.</p>
@@ -413,7 +435,7 @@
                                     </div>
                                 </div>
                                 <div class="sourcecallout"><a href="js/data/csv/SubstanceAbuse_RxHistory.csv" onclick="_gaq.push(['b._trackEvent', 'download', 'clicked', 'opioid-decedents-prescription-history'])" download="ProportionDecedentsWithRxHistorybyToxicologyScreen.csv">View the dataset powering this visualization <i class="glyphicon glyphicon-download-alt" aria-hidden="true"></i></a></div>
-                                <div class="sourcecallout">Sources: <a target="_blank" href="http://www.mass.gov/eopss/agencies/ocme/">Massachusetts Office of the Chief Medical Examiner</a>, <a target="_blank" href="http://www.mass.gov/eohhs/gov/departments/dph/programs/admin/dmoa/vitals/">Massachusetts Registry of Vital Records and Statistics</a>, <a target="_blank" href="http://www.mass.gov/eohhs/gov/departments/dph/programs/hcq/drug-control/pmp/">Massachusetts Prescription Drug Program</a>, <a target="_blank" href="http://www.mass.gov/eohhs/gov/departments/dph/">Massachusetts Department of Public Health</a></div>
+                                <div class="sourcecallout">Sources: <a target="_blank" href="https://www.mass.gov/orgs/office-of-the-chief-medical-examiner">Massachusetts Office of the Chief Medical Examiner</a>, <a target="_blank" href="https://www.mass.gov/orgs/registry-of-vital-records-and-statistics">Massachusetts Registry of Vital Records and Statistics</a>, <a target="_blank" href="https://www.mass.gov/orgs/prescription-monitoring-program">Massachusetts Prescription Drug Program</a>, <a target="_blank" href="https://www.mass.gov/orgs/department-of-public-health">Massachusetts Department of Public Health</a></div>
                             </div>
                         </div>
                     </div>
@@ -449,7 +471,7 @@
                                 <p>Fentanyl is an opioid that can be prescribed for pain management. However, it’s also used illegally either on its own or combined with Heroin, often without the user's knowledge. According to the DEA, illegally produced Fentanyl can be up to 50 times more potent than Heroin. Fentanyl is increasingly recognized as a problem across the United States, and particularly in Massachusetts. Toxicology data from recent post-mortem cases indicates <span class="fentanyl_">Fentanyl</span> is adding to the state’s deadly epidemic more than <span class="heroin_">Heroin</span>. In 2015, more than 60% of toxicology samples tested positive for Fentanyl. In the previous year, that mark was about 40%.</p>
                                 <div id="fentanyl-lines" role="img" aria-label="Line chart showing whether both Fentanyl and Heroin, only heroin, only fentanyl, or only methadone were found in quarterly toxicology reports from the start of 2014 through the first quarter of 2016. "></div>
                                 <div class="sourcecallout"><a href="js/data/csv/SubstanceAbuse_FentanylTox.csv" onclick="_gaq.push(['b._trackEvent', 'download', 'clicked', 'percent-opioid-death-by-substance'])" download="PercentageOpioidDeathBySubstance.csv">View the dataset powering this visualization <i class="glyphicon glyphicon-download-alt" aria-hidden="true"></i></a></div>
-                                <div class="sourcecallout">Sources: <a target="_blank" href="http://www.mass.gov/eopss/agencies/ocme/">Massachusetts Office of the Chief Medical Examiner</a></div>
+                                <div class="sourcecallout">Sources: <a target="_blank" href="https://www.mass.gov/orgs/office-of-the-chief-medical-examiner">Massachusetts Office of the Chief Medical Examiner</a></div>
                             </div>
                         </div>
                     </div>
@@ -497,7 +519,7 @@
                                     <hr>
                                     <div id="table_gender_legend">
                                         <div class="source"><a href="js/data/csv/Demographics_TrendsGender.csv" onclick="_gaq.push(['b._trackEvent', 'download', 'clicked', 'prescriber-opioid-use-trends-gender'])" download="PrescriberAndOpioidUseTrendsByGender.csv">View the dataset powering this visualization <i class="glyphicon glyphicon-download-alt" aria-hidden="true"></i></a></div>
-                                        <div class="source">Sources: <a target="_blank" href="http://www.mass.gov/eopss/agencies/ocme/">Massachusetts Office of the Chief Medical Examiner</a>, <a target="_blank" href="http://www.mass.gov/eohhs/gov/departments/dph/programs/admin/dmoa/vitals/">Massachusetts Registry of Vital Records and Statistics</a>, <a target="_blank" href="http://www.mass.gov/eohhs/gov/departments/dph/programs/hcq/drug-control/pmp/">Massachusetts Prescription Monitoring Program</a>, <a target="_blank" href="http://www.mass.gov/eohhs/gov/departments/dph/">Massachusetts Department of Public Health</a>
+                                        <div class="source">Sources: <a target="_blank" href="https://www.mass.gov/orgs/office-of-the-chief-medical-examiner">Massachusetts Office of the Chief Medical Examiner</a>, <a target="_blank" href="https://www.mass.gov/orgs/registry-of-vital-records-and-statistics">Massachusetts Registry of Vital Records and Statistics</a>, <a target="_blank" href="https://www.mass.gov/orgs/prescription-monitoring-program">Massachusetts Prescription Monitoring Program</a>, <a target="_blank" href="https://www.mass.gov/orgs/department-of-public-health">Massachusetts Department of Public Health</a>
                                         </div>
                                     </div>
                                 </div>
@@ -522,7 +544,7 @@
                             <hr>
                             <div id="changing_bars"></div>
                             <div class="source"><a href="js/data/csv/Demographics_AgeGender.csv" onclick="_gaq.push(['b._trackEvent', 'download', 'clicked', 'fatal-opioid-overdose-age-gender'])" download="FatalOpioidOverdosesByAgeAndGender.csv">View the dataset powering this visualization <i class="glyphicon glyphicon-download-alt" aria-hidden="true"></i></a></div>
-                            <div class="source">Sources: <a target="_blank" href="http://www.mass.gov/eohhs/gov/departments/dph/programs/admin/dmoa/vitals/">Massachusetts Registry of Vital Records and Statistics</a>, <a target="_blank" href="http://www.mass.gov/eohhs/gov/departments/dph/">Massachusetts Department of Public Health</a></div>
+                            <div class="source">Sources: <a target="_blank" href="https://www.mass.gov/orgs/registry-of-vital-records-and-statistics">Massachusetts Registry of Vital Records and Statistics</a>, <a target="_blank" href="https://www.mass.gov/orgs/department-of-public-health">Massachusetts Department of Public Health</a></div>
                         </div>
                     </div>
                     <div class="row">
@@ -540,7 +562,7 @@
                             <hr>
                             <div id="race_ethnicity_chart" role="img" aria-label="Bar chart showing the opioid-related death rate per 100,000 people in 2014 and 2015 in Massachusetts for the overall population and three racial and ethnic groups including white non-Hispanic, black non-Hispanic, and Hispanic. "></div>
                             <div class="source"><a href="js/data/csv/Demographics_RaceEthnicity.csv" onclick="_gaq.push(['b._trackEvent', 'download', 'clicked', 'opioid-related-death-by-race-ethnicity'])" download="OpioidDeathsByRaceAndEthnicity.csv">View the dataset powering this visualization <i class="glyphicon glyphicon-download-alt" aria-hidden="true"></i></a></div>
-                            <div class="source">Sources: <a target="_blank" href="http://www.mass.gov/eohhs/gov/departments/dph/programs/admin/dmoa/vitals/">Massachusetts Registry of Vital Records and Statistics</a>, <a target="_blank" href="http://www.mass.gov/eohhs/gov/departments/dph/">Massachusetts Department of Public Health</a>.</div>
+                            <div class="source">Sources: <a target="_blank" href="https://www.mass.gov/orgs/registry-of-vital-records-and-statistics">Massachusetts Registry of Vital Records and Statistics</a>, <a target="_blank" href="https://www.mass.gov/orgs/department-of-public-health">Massachusetts Department of Public Health</a>.</div>
                         </div>
                         <div class="col-xs-12 col-md-7 pull-right">
                             <p></p>
@@ -609,10 +631,10 @@
                                     <div class="tab-pane active" id="tab_g">
                                         <p></p>
                                         <ul>
-                                            <li><strong>Stopping Stigma</strong> — Shifting the way that people view addiction and individuals with substance use issues is a top priority. DPH launched the <a href="http://www.mass.gov/eohhs/gov/departments/dph/stop-addiction/state-without-stigma/" target="_blank">State Without StigMA</a> campaign to encourage the public to rethink how they perceive and treat people with addiction. Stories from people in recovery — like <a class="controls controls-video js-play-video" onclick="_gaq.push(['b._trackEvent', 'intext', 'clicked', 'video-sue'])" data-target="Sue"><span class="glyphicon glyphicon-facetime-video hidden-sm hidden-xs"  aria-hidden="true"></span> Sue and Stephanie</a>, and <a class="controls controls-video js-play-video" onclick="_gaq.push(['b._trackEvent', 'intext', 'clicked', 'video-cotto'])" data-target="Cotto"><span class="glyphicon glyphicon-facetime-video hidden-sm hidden-xs"  aria-hidden="true"></span> Cotto</a> — have helped reframe addiction as the disease it is.</li>
-                                            <li><strong>Promoting the Good Samaritan Law</strong> — Another state campaign, <a href="http://www.mass.gov/eohhs/gov/departments/dph/programs/substance-abuse/make-the-right-call-public-information-campaign.html" target="_blank">Make the Right Call</a>, has helped spread awareness about the state’s Good Samaritan Law. It ensures a person won’t be charged with possession of a controlled substance if they call 9-1-1 to report an overdose.</li>
-                                            <li><strong>Prescription Monitoring Reforms</strong> — To help pharmacists and doctors better monitor active opioid prescriptions, DPH launched the <a href="http://www.mass.gov/eohhs/gov/newsroom/press-releases/dph/admin-launches-new-prescription-monitoring-program.html" target="_blank">Massachusetts Prescription Awareness Tool (MassPAT)</a>. This new online system is more efficient and user-friendly than older technologies.</li>
-                                            <li><strong>Expanding Prescription Drug Training</strong> — More resources and programs have been offered to <a href="http://www.mass.gov/eohhs/gov/newsroom/press-releases/eohhs/dental-core-competencies-to-combat-addiction-announced.html" target="_blank">dental schools</a> and <a href="http://www.mass.gov/eohhs/gov/newsroom/press-releases/eohhs/core-competencies-to-combat-opioid-epidemic-expanded-.html" target="_blank">nursing and physician assistant programs</a> to train students and professionals on how to prevent prescription drug misuse.</li>
+                                            <li><strong>Stopping Stigma</strong> — Shifting the way that people view addiction and individuals with substance use issues is a top priority. DPH launched the <a href="https://www.mass.gov/statewithoutstigma" target="_blank">State Without StigMA</a> campaign to encourage the public to rethink how they perceive and treat people with addiction. Stories from people in recovery — like <a class="controls controls-video js-play-video" onclick="_gaq.push(['b._trackEvent', 'intext', 'clicked', 'video-sue'])" data-target="Sue"><span class="glyphicon glyphicon-facetime-video hidden-sm hidden-xs"  aria-hidden="true"></span> Sue and Stephanie</a>, and <a class="controls controls-video js-play-video" onclick="_gaq.push(['b._trackEvent', 'intext', 'clicked', 'video-cotto'])" data-target="Cotto"><span class="glyphicon glyphicon-facetime-video hidden-sm hidden-xs"  aria-hidden="true"></span> Cotto</a> — have helped reframe addiction as the disease it is.</li>
+                                            <li><strong>Promoting the Good Samaritan Law</strong> — Another state campaign, <a href="https://www.mass.gov/maketherightcall" target="_blank">Make the Right Call</a>, has helped spread awareness about the state’s Good Samaritan Law. It ensures a person won’t be charged with possession of a controlled substance if they call 9-1-1 to report an overdose.</li>
+                                            <li><strong>Prescription Monitoring Reforms</strong> — To help pharmacists and doctors better monitor active opioid prescriptions, DPH launched the <a href="https://mass.gov/masspat" target="_blank">Massachusetts Prescription Awareness Tool (MassPAT)</a>. This new online system is more efficient and user-friendly than older technologies.</li>
+                                            <li><strong>Expanding Prescription Drug Training</strong> — More resources and programs have been offered to dental schools and nursing and physician assistant programs to train students and professionals on how to prevent prescription drug misuse.</li>
                                         </ul>
                                     </div>
                                     <div class="tab-pane" id="tab_h">
@@ -640,11 +662,11 @@
                                 <h3 class="title">Opioid Addiction and Use Resources</h3>
                                 <p></p>
                                 <ul>
-                                    <li>Massachusetts Substance Abuse Helpline
+                                    <li><a href="https://helplinema.org/" target="_blank">Massachusetts Substance Use Helpline</a>
                                         <br /><a href="tel:8003275050" aria-label="Massachusetts Substance Abuse Helpline phone number"><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i> (800) 327-5050</a></li>
                                     <li><a href="https://findtreatment.samhsa.gov/locator/home" target="_blank">Substance Use Treatment Services Locator <i class="glyphicon glyphicon-arrow-right"></i> </a></li>
-                                    <li><a href="https://www.mass.gov/eohhs/gov/departments/dph/programs/substance-abuse/prevention/prescription-dropbox-locations.html" target="_blank">Prescription Dropbox Locations <i class="glyphicon glyphicon-arrow-right" aria-hidden="true"></i> </a></li>
-                                    <li><a href="https://www.mass.gov/eohhs/gov/departments/dph/programs/substance-abuse/prevention/prescription-drug-misuse-abuse-and-your-kids.html" target="_blank">Parents: Talk to Your Kids about Opioids <i class="glyphicon glyphicon-arrow-right" aria-hidden="true"></i> </a></li>
+                                    <li><a href="https://www.mass.gov/service-details/prescription-dropbox-locations" target="_blank">Prescription Dropbox Locations <i class="glyphicon glyphicon-arrow-right" aria-hidden="true"></i> </a></li>
+                                    <li><a href="https://www.mass.gov/protect-your-kids-from-prescription-drug-use" target="_blank">Parents: Talk to Your Kids about Opioids <i class="glyphicon glyphicon-arrow-right" aria-hidden="true"></i> </a></li>
                                 </ul>
                             </aside>
                             <p></p>
