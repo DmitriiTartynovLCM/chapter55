@@ -8,15 +8,15 @@ This repository contains code and assets for an online, interactive visualizatio
 
 ### Requirements
 
-To run the server, you'll need [Node.js](https://nodejs.org/en/download/) installed.
+To run the server, you'll need [Node.js](https://nodejs.org/en/download/) installed. This project is supporting node v10. Install [nvm](https://github.com/nvm-sh/nvm/blob/master/README.md) to manage node versions.
 
 ### Build the server and the front-end
 
 0. Clone the repo from Github by using the command line or repo's website on Github. On the right side of the repo's page, there is a button labeled "Clone in Desktop"
 
-0. Run `npm install` from the root of the repository to load modules and install Gulp dependencies
+0. Run `nvm use && npm install` from the root of the repository to load modules and install Gulp dependencies
 
-0. Run `gulp` from the root of the repository to build the project and get it to run. This will set up `browser-sync` to run when front-end files change and will set up the server to reload on any file change
+0. Run `npm run dev` from the root of the repository to build the project and get it to run. This will set up `browser-sync` to run when front-end files change and will set up the server to reload on any file change
 
 
 ```
